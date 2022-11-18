@@ -71,7 +71,7 @@ opencensus-ext-grpc==0.7.1
     # via -r requirements.in
 opencensus-ext-stackdriver==0.7.3
     # via -r requirements.in
-protobuf==3.15.0
+protobuf==3.18.3
     # via
     #   -r requirements.in
     #   google-api-core
@@ -115,3 +115,4 @@ urllib3==1.26.5
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
