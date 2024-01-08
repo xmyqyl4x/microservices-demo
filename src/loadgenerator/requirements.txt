@@ -4,7 +4,7 @@
 #
 #    pip-compile
 #
-certifi==2020.12.5
+certifi==2023.7.22
     # via
     #   geventhttpclient
     #   requests
@@ -14,7 +14,7 @@ click==7.1.2
     # via flask
 configargparse==1.5.3
     # via locust
-flask==1.1.2
+flask==2.2.5
     # via
     #   flask-basicauth
     #   flask-cors
@@ -23,7 +23,7 @@ flask-basicauth==0.2.0
     # via locust
 flask-cors==3.0.10
     # via locust
-gevent==20.12.1
+gevent==23.9.0
     # via
     #   geventhttpclient
     #   locust
@@ -47,7 +47,7 @@ psutil==5.7.2
     # via locust
 pyzmq==19.0.2
     # via locust
-requests==2.27.1
+requests==2.31.0
     # via
     #   -r requirements.in
     #   locust
@@ -55,11 +55,11 @@ six==1.15.0
     # via
     #   flask-cors
     #   geventhttpclient
-urllib3==1.26.5
+urllib3==1.26.18
     # via
     #   -r requirements.in
     #   requests
-werkzeug==1.0.1
+werkzeug==2.3.8
     # via
     #   flask
     #   locust
@@ -70,3 +70,4 @@ zope.interface==5.1.0
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
