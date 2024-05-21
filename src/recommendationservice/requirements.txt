@@ -95,7 +95,7 @@ pyyaml==6.0
     # via
     #   -r requirements.in
     #   google-python-cloud-debugger
-requests==2.27.1
+requests==2.32.0
     # via
     #   -r requirements.in
     #   google-api-core
