@@ -6,7 +6,7 @@
 #
 cachetools==4.2.4
     # via google-auth
-certifi==2020.12.5
+certifi==2023.7.22
     # via requests
 charset-normalizer==2.0.10
     # via requests
@@ -59,7 +59,7 @@ httplib2==0.19.0
     # via
     #   google-api-python-client
     #   google-auth-httplib2
-idna==2.10
+idna==3.7
     # via requests
 opencensus==0.8.0
     # via
@@ -72,7 +72,7 @@ opencensus-ext-grpc==0.7.1
     # via -r requirements.in
 opencensus-ext-stackdriver==0.7.3
     # via -r requirements.in
-protobuf==3.15.0
+protobuf==3.18.3
     # via
     #   -r requirements.in
     #   google-api-core
@@ -95,7 +95,7 @@ pyyaml==6.0
     # via
     #   -r requirements.in
     #   google-python-cloud-debugger
-requests==2.27.1
+requests==2.32.2
     # via
     #   -r requirements.in
     #   google-api-core
@@ -116,10 +116,11 @@ six==1.15.0
     #   protobuf
 uritemplate==3.0.1
     # via google-api-python-client
-urllib3==1.26.5
+urllib3==1.26.19
     # via
     #   -r requirements.in
     #   requests
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
