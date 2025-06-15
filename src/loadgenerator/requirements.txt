@@ -21,7 +21,7 @@ flask==1.1.2
     #   locust
 flask-basicauth==0.2.0
     # via locust
-flask-cors==3.0.10
+flask-cors==6.0.0
     # via locust
 gevent==20.12.1
     # via
@@ -47,7 +47,7 @@ psutil==5.7.2
     # via locust
 pyzmq==19.0.2
     # via locust
-requests==2.27.1
+requests==2.32.4
     # via
     #   -r requirements.in
     #   locust
