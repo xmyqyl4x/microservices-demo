@@ -55,11 +55,11 @@ six==1.15.0
     # via
     #   flask-cors
     #   geventhttpclient
-urllib3==1.26.5
+urllib3==2.6.3
     # via
     #   -r requirements.in
     #   requests
-werkzeug==1.0.1
+werkzeug==3.1.5
     # via
     #   flask
     #   locust
