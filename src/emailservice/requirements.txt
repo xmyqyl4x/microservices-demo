@@ -78,7 +78,7 @@ protobuf==3.15.0
     #   google-cloud-profiler
     #   googleapis-common-protos
     #   grpcio-health-checking
-pyasn1==0.4.8
+pyasn1==0.6.2
     # via
     #   pyasn1-modules
     #   rsa
@@ -108,7 +108,7 @@ six==1.15.0
     #   protobuf
 uritemplate==3.0.1
     # via google-api-python-client
-urllib3==1.26.5
+urllib3==2.6.3
     # via
     #   -r requirements.in
     #   requests
